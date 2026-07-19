@@ -23,6 +23,8 @@ model.compile(
 )
 model.fit(x, y, epochs=500, verbose=0)
 prediction = model.predict(x)
+print("Name: Balaji.s")
+print("Reg.No: 814724243022")
 print("Input:")
 print(x)
 print("\nExpected Output:")
